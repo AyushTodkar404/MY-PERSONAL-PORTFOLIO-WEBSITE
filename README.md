@@ -15,7 +15,7 @@ https://ayushtodkar404.github.io/portfolio-website/
 
 ## 📌 About The Project
 
-This is my personal portfolio website built from scratch using HTML and CSS.
+This is my personal portfolio website built from scratch using HTML and CSS and optional JS.
 
 The purpose of this project is to create a professional online presence and showcase my technical skills, projects, and development journey.
 
@@ -25,6 +25,7 @@ The purpose of this project is to create a professional online presence and show
 
 - HTML5
 - CSS3
+- OPTIONAL JS
 
 ---
 
