@@ -207,7 +207,7 @@
                 <div class="contact-form">
                     <form id="contact-form"><input id="name" type="text" placeholder="Your Name" required><input
                             id="email" type="email" placeholder="Your Email" required><textarea id="message"
-                            placeholder="Your Message" required></textarea><button type="submit">Send Message</button>
+                            placeholder="Your Message" required></textarea><button type="submit">Send via WhatsApp</button>
                     </form>
                 </div>
             </div>
@@ -223,7 +223,19 @@
         <p>© 2026 Ayush Todkar. All Rights Reserved.</p>
     </footer>
     <script src="dark%20mode.js"></script>
-    <script>document.getElementById('contact-form').addEventListener('submit', function (event) { event.preventDefault(); const name = document.getElementById('name').value.trim(), email = document.getElementById('email').value.trim(), message = document.getElementById('message').value.trim(); window.location.href = 'mailto:ayushtodkar404@gmail.com?subject=' + encodeURIComponent('Portfolio enquiry from ' + name) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message); });</script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+            const whatsappMessage = encodeURIComponent(
+                'Hello Ayush, I am contacting you through your portfolio.\n\n' +
+                'Name: ' + name + '\nEmail: ' + email + '\n\nMessage: ' + message
+            );
+            window.open('https://wa.me/917021729332?text=' + whatsappMessage, '_blank', 'noopener');
+        });
+    </script>
 </body>
 
 </html>
