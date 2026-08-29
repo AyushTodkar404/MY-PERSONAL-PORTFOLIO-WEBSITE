@@ -196,6 +196,7 @@ The portfolio is designed to work across:
 - Tablet
 - Mobile devices
 The layout adapts on smaller screens by adjusting navigation, grids, cards, contact sections, and the hero layout.
+
 🛠️ Built With
 Technology	Purpose
 HTML5	Website structure
@@ -219,13 +220,18 @@ ayush-todkar-portfolio/
 ├── Resume.pdf
 │
 └── README.md
+
+
 🚀 Getting Started
 Clone the Repository
 git clone https://github.com/AyushTodkar404/ayush-todkar-portfolio.git
 cd ayush-todkar-portfolio
 Run Locally
 This is a frontend-only project. Simply open index.html in a modern web browser.
+
+
 For a smoother development experience, use the Live Server extension in Visual Studio Code.
+
 💻 Using VS Code Live Server
 1. Open the project folder in Visual Studio Code.
 2. Install the Live Server extension.
@@ -241,9 +247,11 @@ For a smoother development experience, use the Live Server extension in Visual S
 - Add SEO metadata and Open Graph previews
 - Add GitHub Actions deployment
 - Add a custom domain
+  
 📄 License
 This project is a personal portfolio website.
 The source code may be used for learning and reference. Personal content, profile images, resume information, contact details, and other identifying materials must not be reused without permission.
+
 👨‍💻 Author
 Ayush Todkar
 Computer Engineering Student | Full-Stack Developer
