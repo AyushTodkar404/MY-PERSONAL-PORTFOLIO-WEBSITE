@@ -88,8 +88,6 @@ Key features:
 - Interactive satellite map interface
 
 **Technology Stack:**
-
-```text
 Python, React.js, JavaScript, Tailwind CSS,
 Node.js, Express.js, MongoDB
 🖥️ Deadlock Detector and Recovery Simulator
@@ -166,6 +164,7 @@ Visitors can connect through:
 - LinkedIn
 - WhatsApp contact form
 The contact form collects the visitor’s name, email, and message, then opens WhatsApp with a pre-filled message. No backend server is required.
+
 🛠️ Built With
 Technology	Purpose
 HTML5	Website structure
@@ -194,7 +193,8 @@ Clone the repository:
 git clone https://github.com/AyushTodkar404/ayush-todkar-portfolio.git
 cd ayush-todkar-portfolio
 Open index.html directly in a modern browser, or run it with the VS Code Live Server extension.
-👨‍💻 Author
+
+👨💻 Author
 Ayush Todkar
 Computer Engineering Student | Full Stack Developer | Cybersecurity Enthusiast
 - GitHub: AyushTodkar404
