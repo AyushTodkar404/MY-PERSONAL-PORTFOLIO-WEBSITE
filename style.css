@@ -780,6 +780,23 @@ main {
   font-size: 13px;
   color: var(--text);
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.contact-sub-badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+  background-color: var(--accent-soft);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .contact-form-panel {
@@ -828,9 +845,24 @@ main {
   resize: vertical;
 }
 
+.form-submit-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 4px;
+}
+
 .btn-submit {
   width: 100%;
   padding: 11px 16px;
+  font-size: 13px;
+}
+
+@media (max-width: 520px) {
+  .form-submit-group {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
 
 /* Footer */
