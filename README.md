@@ -35,14 +35,46 @@ Designed according to **Unslop** and **Ponytail** principles: zero bloated depen
 ## 🛠️ Project Structure
 
 ```text
-├── index.html          # Main semantic HTML structure
+├── index.html          # Main semantic HTML structure (all content is here!)
 ├── style.css           # Modern CSS3 design system & responsive rules
 ├── dark-mode.js        # Theme engine, mobile menu & scrollspy controller
 ├── Resume.pdf          # Professional engineering resume
 ├── profile-photo.jpeg  # Profile visual asset
 ├── me.jpg              # Favicon asset
-└── README.md           # Documentation
+└── README.md           # Documentation & editing guide
 ```
+
+---
+
+## ✏️ How to Edit This Static Website
+
+This website is **100% static** &mdash; no build tools, no Node.js compilation, and no framework dependencies required. Every section is directly editable in [`index.html`](index.html).
+
+| What You Want to Edit | Where to Find It in `index.html` |
+| :--- | :--- |
+| **Hero (Name, Bio, Resume link)** | Search for `HERO SECTION` |
+| **About Me (Bio text & CGPA stats)** | Search for `01. ABOUT ME SECTION` |
+| **Technical Skills (Languages, tools)** | Search for `02. TECHNICAL SKILLS SECTION` |
+| **Projects (Titles, descriptions, links)** | Search for `03. PROJECTS SECTION` |
+| **Experience (Club role, dates)** | Search for `04. EXPERIENCE & LEADERSHIP` |
+| **Areas of Interest** | Search for `05. AREAS OF INTEREST` |
+| **Certifications & Training** | Search for `06. CERTIFICATIONS & TRAINING` |
+| **Achievements & Hackathons** | Search for `07. ACHIEVEMENTS & HACKATHONS` |
+| **Co-Curricular Activities** | Search for `08. CO-CURRICULAR ACTIVITIES` |
+| **Education (B.E., HSC 12th, SSC 10th)** | Search for `09. EDUCATION & ACADEMICS` |
+| **Contact (Email, phone, social links)** | Search for `10. CONTACT & CONNECT` |
+
+### Updating your photo or resume:
+1. **Photo**: Replace `profile-photo.jpeg` with your new photo file (keep the same filename).
+2. **Resume**: Replace `Resume.pdf` with your updated PDF (keep the same filename).
+
+### Publishing your edits to GitHub:
+```bash
+git add .
+git commit -m "Update portfolio details"
+git push origin main
+```
+Your live site on GitHub Pages will automatically update within 60 seconds.
 
 ---
 
