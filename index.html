@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ayush Todkar — Computer Engineering student and Full Stack Developer at DBIT Mumbai. Honors in Ethical Hacking.">
+    <title>Ayush Todkar | Computer Engineering Student &amp; Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="me.jpg" type="image/jpeg">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">AT</span>
+                <span class="logo-text">Ayush<span class="logo-dot">.dev</span></span>
+            </a>
+
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#interests" class="nav-link">Interests</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#co-curricular" class="nav-link">Activities</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button id="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme"></button>
+                <button id="mobile-menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <svg class="icon-hamburger" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available for Full-Stack &amp; Security Roles</span>
+                </div>
+                <h1 class="hero-name">Ayush <span class="text-accent">Todkar</span></h1>
+                <h2 class="hero-role">Computer Engineering Student | Full Stack Developer</h2>
+                <p class="hero-desc">
+                    I build practical full-stack applications and explore cybersecurity, secure application development, and modern web technologies.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="Resume.pdf" class="btn btn-primary" download>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <div class="hero-quick-links">
+                        <a href="https://github.com/AyushTodkar404" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub Profile" title="GitHub">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ayush-todkar-801527411" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/_theayushtodkar404_/?hl=en" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Instagram Profile" title="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="portrait-container">
+                    <img id="profile-image" src="profile-photo.jpeg" alt="Ayush Todkar" class="portrait-img">
+                    <div class="portrait-card-footer">
+                        <span class="portrait-tag">B.E. Computer Engineering</span>
+                        <span class="portrait-meta">DBIT &middot; Honors in Ethical Hacking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">01 / PROFILE</span>
+                <h2 class="section-heading">About Me</h2>
+            </header>
+
+            <div class="about-card">
+                <h3 class="about-lead-title">Computer Engineering Student &amp; Full Stack Developer</h3>
+                <div class="about-copy">
+                    <p>
+                        I am a third-year Computer Engineering student with a strong foundation in data structures, algorithms, and full-stack web development.
+                    </p>
+                    <p>
+                        I build practical applications with React.js, Node.js, Python, and MongoDB&mdash;from civic issue reporting platforms to operating-system simulations.
+                    </p>
+                    <p>
+                        I am pursuing an Honors specialization in Ethical Hacking, with a focus on cybersecurity and secure application development.
+                    </p>
+                </div>
+
+                <div class="about-stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-title">Technologies Learned</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-title">Projects Built</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">8.0</span>
+                        <span class="stat-title">CGPA up to Semester 4</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">02 / EXPERTISE</span>
+                <h2 class="section-heading">Technical Skills</h2>
+            </header>
+
+            <div class="cards-grid skills-layout">
+                <article class="card skill-item">
+                    <h3 class="card-title">Programming Languages</h3>
+                    <div class="chips-wrap">
+                        <span class="chip">C</span>
+                        <span class="chip">Python</span>
+                        <span class="chip">JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="card skill-item">
+                    <h3 class="card-title">Frontend Development</h3>
+                    <div class="chips-wrap">
+                        <span class="chip">HTML5</span>
+                        <span class="chip">CSS3</span>
+                        <span class="chip">React.js</span>
+                    </div>
+                </article>
+
+                <article class="card skill-item">
+                    <h3 class="card-title">Backend Development</h3>
+                    <div class="chips-wrap">
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                        <span class="chip">RESTful APIs</span>
+                    </div>
+                </article>
+
+                <article class="card skill-item">
+                    <h3 class="card-title">Database</h3>
+                    <div class="chips-wrap">
+                        <span class="chip">MongoDB</span>
+                    </div>
+                </article>
+
+                <article class="card skill-item">
+                    <h3 class="card-title">Tools</h3>
+                    <div class="chips-wrap">
+                        <span class="chip">Git</span>
+                        <span class="chip">GitHub</span>
+                        <span class="chip">Visual Studio Code</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">03 / SHOWCASE</span>
+                <h2 class="section-heading">My Projects</h2>
+            </header>
+
+            <div class="projects-layout">
+                <!-- Project 1: Developer Portfolio Website -->
+                <article class="card project-item">
+                    <div class="project-top">
+                        <span class="project-badge">WEB PORTFOLIO</span>
+                        <div class="project-actions">
+                            <a href="https://github.com/AyushTodkar404/MY-PERSONAL-PORTFOLIO-WEBSITE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Developer Portfolio Website</h3>
+                    <p class="project-description">
+                        Designed and developed a responsive personal portfolio website to showcase technical skills, projects, and academic profile. Implemented responsive layouts, animations, transitions, interactive sections, and a dark mode toggle.
+                    </p>
+                    <div class="chips-wrap project-tech-list">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">Responsive Design</span>
+                    </div>
+                </article>
+
+                <!-- Project 2: FixMySpot -->
+                <article class="card project-item">
+                    <div class="project-top">
+                        <span class="project-badge">CIVIC PLATFORM</span>
+                        <div class="project-actions">
+                            <a href="https://github.com/AyushTodkar404/FIXMYSOT-CIVIC-COMPLAINTS-AND-MAINTAINENCE-TRACKER" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">FixMySpot</h3>
+                    <p class="project-description">
+                        A full-stack civic issue reporting platform that enables citizens to report, track, and monitor municipal issues. It includes role-based access for citizens, municipal workers, and administrators, along with issue-status workflows, notifications, profiles, and an interactive satellite map.
+                    </p>
+                    <div class="chips-wrap project-tech-list">
+                        <span class="chip">Python</span>
+                        <span class="chip">React.js</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">Tailwind CSS</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                        <span class="chip">MongoDB</span>
+                    </div>
+                </article>
+
+                <!-- Project 3: Deadlock Detector -->
+                <article class="card project-item">
+                    <div class="project-top">
+                        <span class="project-badge">SYSTEMS SIMULATOR</span>
+                        <div class="project-actions">
+                            <a href="https://github.com/AyushTodkar404/DEADLOCK-DETECTOR-AND-RECOVERY-SIMULATOR" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                            <a href="https://deadlock-visualizer.onrender.com/" target="_blank" rel="noopener noreferrer" class="link-btn link-btn-accent" title="Open Live Simulator">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Deadlock Detector and Recovery Simulator</h3>
+                    <p class="project-description">
+                        An interactive operating-systems simulator for detecting deadlocks and demonstrating recovery techniques in resource allocation. It implements Banker’s Algorithm, dynamic resource requests, DFS-based cycle detection, process termination, and resource preemption.
+                    </p>
+                    <div class="chips-wrap project-tech-list">
+                        <span class="chip">HTML</span>
+                        <span class="chip">CSS</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                        <span class="chip">SVG</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">04 / LEADERSHIP</span>
+                <h2 class="section-heading">Experience</h2>
+            </header>
+
+            <div class="timeline-container">
+                <article class="timeline-entry">
+                    <div class="timeline-dot"></div>
+                    <div class="card timeline-content">
+                        <div class="entry-header">
+                            <h3 class="entry-role">Assistant Research Head</h3>
+                            <span class="entry-timeframe">2026 &ndash; Present</span>
+                        </div>
+                        <h4 class="entry-org">Security Club, Don Bosco Institute of Technology (DBIT)</h4>
+                        <p class="entry-desc">
+                            Supporting cybersecurity research initiatives, exploring emerging security topics, and contributing to technical discussions and knowledge-sharing activities within the club.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Areas of Interest Section -->
+        <section id="interests" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">05 / FOCUS</span>
+                <h2 class="section-heading">Areas of Interest</h2>
+            </header>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3 class="card-title">Full Stack Development</h3>
+                    <p class="card-desc">Building complete web applications from responsive interfaces to server-side APIs and databases.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Cybersecurity</h3>
+                    <p class="card-desc">Pursuing an Honors specialization in Ethical Hacking alongside my Computer Engineering degree.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Problem Solving</h3>
+                    <p class="card-desc">Strengthening programming, algorithms, and software-development fundamentals through projects.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Continuous Learning</h3>
+                    <p class="card-desc">Exploring modern technologies and turning new ideas into practical software.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certifications & Training Section -->
+        <section id="certifications" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">06 / CREDENTIALS</span>
+                <h2 class="section-heading">Certifications &amp; Training</h2>
+            </header>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3 class="card-title">Advanced Cybersecurity Concepts Bootcamp</h3>
+                    <p class="card-desc">DSCI Advanced Cyber Skill Centre, Mumbai &mdash; completed a two-day bootcamp focused on practical cybersecurity concepts and security awareness.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Developing Soft Skills and Personality</h3>
+                    <p class="card-desc">NPTEL, IIT Kanpur &mdash; training in professional communication, presentation skills, interpersonal communication, and personality development.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Full-Stack Web Development</h3>
+                    <p class="card-desc">CodeWithHarry, Udemy &mdash; completed training in frontend development, Git/GitHub, and the MERN stack, with hands-on full-stack application development.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">07 / RECOGNITION</span>
+                <h2 class="section-heading">Achievements</h2>
+            </header>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3 class="card-title">Smart India Hackathon 2025</h3>
+                    <p class="card-desc">Participated in the national-level innovation challenge, developing a technology-driven solution to a real-world problem.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Smart India Hackathon 2026</h3>
+                    <p class="card-desc">Collaborated on a technology-based solution to address a real-world problem statement.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Euphoria Drama Competition</h3>
+                    <p class="card-desc">Secured 3rd place in an inter-departmental stage drama competition at Don Bosco Institute of Technology.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Academic Performance</h3>
+                    <p class="card-desc">Maintained an 8.0/10 CGPA through the first four semesters of engineering.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Co-Curricular Activities Section -->
+        <section id="co-curricular" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">08 / ACTIVITIES</span>
+                <h2 class="section-heading">Co-Curricular Activities</h2>
+            </header>
+
+            <div class="cards-grid two-column-grid">
+                <article class="card">
+                    <h3 class="card-title">Stage Performance &mdash; Euphoria</h3>
+                    <p class="card-desc">Performed in an inter-departmental stage drama, contributing to team performance and building confidence and public-speaking skills.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card-title">Marathi Club Drama</h3>
+                    <p class="card-desc">Portrayed Hiranyakashyap, the primary antagonist, in a stage production based on the Narasimha Avatar from Dashavatara.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">09 / ACADEMICS</span>
+                <h2 class="section-heading">Education</h2>
+            </header>
+
+            <div class="timeline-container">
+                <article class="timeline-entry">
+                    <div class="timeline-dot"></div>
+                    <div class="card timeline-content">
+                        <div class="entry-header">
+                            <h3 class="entry-role">Bachelor of Engineering &mdash; Computer Engineering</h3>
+                            <span class="entry-timeframe">2024 &ndash; Present</span>
+                        </div>
+                        <h4 class="entry-sub">Honors specialization in Ethical Hacking</h4>
+                        <div class="entry-org">Don Bosco Institute of Technology, Kurla</div>
+                        <div class="entry-badge-wrap">
+                            <span class="metric-chip">CGPA: 8.0/10 (up to Semester 4)</span>
+                        </div>
+                        <p class="entry-desc">Developing skills in software development, data structures, databases, and web technologies.</p>
+                    </div>
+                </article>
+
+                <article class="timeline-entry">
+                    <div class="timeline-dot"></div>
+                    <div class="card timeline-content">
+                        <div class="entry-header">
+                            <h3 class="entry-role">Higher Secondary Certificate (HSC) &mdash; 12th</h3>
+                            <span class="entry-timeframe">2022 &ndash; 2024</span>
+                        </div>
+                        <div class="entry-org">Swami Vivekananda Junior College of Commerce and Science</div>
+                        <div class="entry-badge-wrap">
+                            <span class="metric-chip">HSC: 76.33%</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="timeline-entry">
+                    <div class="timeline-dot"></div>
+                    <div class="card timeline-content">
+                        <div class="entry-header">
+                            <h3 class="entry-role">Secondary School Certificate (SSC) &mdash; 10th</h3>
+                            <span class="entry-timeframe">2022</span>
+                        </div>
+                        <div class="entry-org">St. Mary’s Multipurpose High School and Junior College, Vashi</div>
+                        <div class="entry-badge-wrap">
+                            <span class="metric-chip">SSC: 94.40%</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <header class="section-heading-wrap">
+                <span class="section-kicker">10 / CONNECT</span>
+                <h2 class="section-heading">Get In Touch</h2>
+            </header>
+
+            <div class="contact-layout">
+                <div class="card contact-details-panel">
+                    <h3 class="contact-lead-title">Let's Connect</h3>
+                    <p class="contact-lead-desc">
+                        I'm always interested in discussing software projects, development opportunities, and new ideas.
+                    </p>
+
+                    <div class="contact-items-list">
+                        <a href="mailto:ayushtodkar404@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <span class="contact-text">ayushtodkar404@gmail.com</span>
+                        </a>
+
+                        <a href="tel:+917021729332" class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <span class="contact-text">+91 70217 29332</span>
+                        </a>
+
+                        <a href="https://github.com/AyushTodkar404" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </div>
+                            <span class="contact-text">GitHub</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/ayush-todkar-801527411" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </div>
+                            <span class="contact-text">LinkedIn</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/_theayushtodkar404_/?hl=en" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </div>
+                            <span class="contact-text">Instagram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card contact-form-panel">
+                    <form id="contact-form" class="styled-form">
+                        <div class="form-field">
+                            <label for="name" class="field-label">Your Name</label>
+                            <input id="name" type="text" placeholder="Your Name" required class="text-input">
+                        </div>
+                        <div class="form-field">
+                            <label for="email" class="field-label">Your Email</label>
+                            <input id="email" type="email" placeholder="Your Email" required class="text-input">
+                        </div>
+                        <div class="form-field">
+                            <label for="message" class="field-label">Your Message</label>
+                            <textarea id="message" placeholder="Your Message" required class="text-area"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-identity">
+                <h2 class="footer-title">Ayush Todkar</h2>
+                <p class="footer-subtitle">Computer Engineering Student | Full Stack Developer</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/AyushTodkar404" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/ayush-todkar-801527411" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.instagram.com/_theayushtodkar404_/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="mailto:ayushtodkar404@gmail.com">Email</a>
+                <a href="tel:+917021729332">Phone</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 Ayush Todkar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="dark-mode.js"></script>
+    <script>
+        // WhatsApp Intent Form Handler
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+            const whatsappMessage = encodeURIComponent(
+                'Hello Ayush, I am contacting you through your portfolio.\n\n' +
+                'Name: ' + name + '\nEmail: ' + email + '\n\nMessage: ' + message
+            );
+            window.open('https://wa.me/917021729332?text=' + whatsappMessage, '_blank', 'noopener');
+        });
+    </script>
+</body>
+
+</html>
