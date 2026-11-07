@@ -55,6 +55,10 @@ body.light-mode {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-height) + 16px);
+  max-width: 100vw;
+  overflow-x: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
 }
 
 :focus-visible {
@@ -90,8 +94,25 @@ body {
   font-family: var(--font-sans);
   font-size: 15px;
   line-height: 1.6;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Eliminate horizontal scrolling and hide scrollbar lines across all browsers */
+html, body, * {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 body.menu-locked {
