@@ -450,7 +450,6 @@ main {
   height: 7px;
   border-radius: 50%;
   background-color: var(--emerald);
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
 }
 
 .hero-name {
@@ -1121,7 +1120,7 @@ main {
   left: 0;
   height: 3px;
   width: 0%;
-  background: linear-gradient(90deg, var(--accent), var(--emerald));
+  background: var(--accent);
   z-index: 10001;
   transition: width 0.08s ease-out;
   pointer-events: none;

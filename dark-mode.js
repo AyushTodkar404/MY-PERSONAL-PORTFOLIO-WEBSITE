@@ -245,19 +245,19 @@
 
     switch (cmd) {
       case 'help':
-        appendTermRow('⚡ Available commands:', 'term-accent');
+        appendTermRow('Available commands:', 'term-accent');
         appendTermRow('  skills      - List programming languages, cloud & cybersecurity tools');
         appendTermRow('  projects    - List all featured software engineering projects');
-        appendTermRow('  cloudvault  - Deep dive into the Azure 5-pillar CloudVault architecture');
-        appendTermRow('  security    - Details on DBIT Security Club & CTF sandbox portal');
-        appendTermRow('  about       - Academic background, DBIT honors & mission');
-        appendTermRow('  contact     - View email, LinkedIn, WhatsApp & GitHub endpoints');
+        appendTermRow('  cloudvault  - Architecture of the Azure CloudVault project');
+        appendTermRow('  security    - Details on DBIT Security Club & CTF sandbox');
+        appendTermRow('  about       - Academic background & cybersecurity honors');
+        appendTermRow('  contact     - View email, LinkedIn, WhatsApp & GitHub links');
         appendTermRow('  date        - Print current timestamp');
         appendTermRow('  clear       - Wipe the terminal output buffer');
         break;
 
       case 'skills':
-        appendTermRow('🛠️ Technical Arsenal:', 'term-accent');
+        appendTermRow('Skills & Tooling:', 'term-accent');
         appendTermRow('  • Languages: Python, JavaScript (ES6+), C/C++, Java, SQL, HTML5/CSS3');
         appendTermRow('  • Cloud & Security: Azure Blob Storage, AES-256-GCM, Argon2id, Ethical Hacking, OWASP Top 10');
         appendTermRow('  • Frameworks: Flask, React.js, Node.js, Express.js, Tailwind CSS');
@@ -265,17 +265,17 @@
         break;
 
       case 'projects':
-        appendTermRow('🚀 Featured Engineering Projects (6 Total):', 'term-accent');
+        appendTermRow('Featured Projects (6 Total):', 'term-accent');
         appendTermRow('  1. CloudVault — Secure cloud document vault with Azure Blob Storage & AES-256-GCM');
         appendTermRow('  2. DBIT Security Club (Full Stack) — Club community portal, event REST APIs & member management');
         appendTermRow('  3. DBIT Security Club (Static) — High-speed static SPA & in-browser CTF challenge sandbox');
         appendTermRow('  4. FixMySpot — Full-stack municipal civic issue tracker with maps & offline caching');
         appendTermRow('  5. Deadlock Detector — Operating systems resource allocation graph & Banker\'s Algorithm simulator');
-        appendTermRow('  6. Personal Portfolio — Lean zero-bloat developer portfolio with terminal CLI emulator');
+        appendTermRow('  6. Personal Portfolio — Lean developer portfolio with built-in terminal emulator');
         break;
 
       case 'cloudvault':
-        appendTermRow('🔒 CloudVault Architecture:', 'term-accent');
+        appendTermRow('CloudVault Architecture:', 'term-accent');
         appendTermRow('  • Azure Blob Storage backend with AES-256-GCM envelope encryption & SHA-256 integrity');
         appendTermRow('  • Argon2id password hashing + automated 55-extension file upload security scanner');
         appendTermRow('  • Full Azure-synchronized recycle bin lifecycle (trash/restore/purge) & time-bounded sharing');
@@ -283,20 +283,20 @@
         break;
 
       case 'security':
-        appendTermRow('🛡️ DBIT Security Club Platforms (Dynamic & Static):', 'term-accent');
+        appendTermRow('DBIT Security Club Platforms (Dynamic & Static):', 'term-accent');
         appendTermRow('  • Dynamic Platform: Node/Express event hub, member directory & operations API');
-        appendTermRow('  • Static Edition: Lightning-fast static architecture with in-browser CTF cryptographic sandbox');
+        appendTermRow('  • Static Edition: Fast static site with in-browser CTF cryptographic sandbox');
         appendTermRow('  • GitHub (Dynamic): https://github.com/AyushTodkar404/SECURITY-CLUB-WEBSITE');
         appendTermRow('  • GitHub (Static): https://github.com/AyushTodkar404/STATIC-VERSION-SECURITY-CLUB-WEBSITE');
         break;
 
       case 'about':
-        appendTermRow('👨‍💻 Ayush Todkar:', 'term-accent');
-        appendTermRow('  Computer Engineering undergraduate at DBIT Mumbai with an Honors specialization in Ethical Hacking. Passionate about architecting secure, resilient, user-centric software.');
+        appendTermRow('Ayush Todkar:', 'term-accent');
+        appendTermRow('  Computer Engineering undergraduate at DBIT Mumbai with an Honors specialization in Ethical Hacking. Assistant Research Head at DBIT Security Club.');
         break;
 
       case 'contact':
-        appendTermRow('📬 Reach Out Directly:', 'term-accent');
+        appendTermRow('Contact channels:', 'term-accent');
         appendTermRow('  • Email: ayushtodkar404@gmail.com');
         appendTermRow('  • WhatsApp / Phone: +91 70217 29332');
         appendTermRow('  • GitHub: https://github.com/AyushTodkar404');
@@ -304,16 +304,16 @@
         break;
 
       case 'sudo':
-        appendTermRow('🚫 [AUTH FAILURE] visitor is not in the sudoers file. This incident has been logged and reported to DBIT Security Club. ;)', 'term-code');
+        appendTermRow('[AUTH FAILURE] visitor is not in the sudoers file. This incident has been logged and reported to DBIT Security Club. ;)', 'term-code');
         break;
 
       case 'date':
-        appendTermRow('🕒 System time: ' + new Date().toLocaleString(), 'term-dim');
+        appendTermRow('System time: ' + new Date().toLocaleString(), 'term-dim');
         break;
 
       case 'clear':
         termOutput.innerHTML = '';
-        appendTermRow('✨ Screen cleared. Type "help" or click a quick action above.', 'term-dim');
+        appendTermRow('Terminal buffer cleared. Type "help" to view commands.', 'term-dim');
         break;
 
       default:
