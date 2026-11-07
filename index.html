@@ -176,7 +176,7 @@
                         <span class="stat-title">Technologies Learned</span>
                     </div>
                     <div class="stat-box">
-                        <span class="stat-number">3+</span>
+                        <span class="stat-number">6</span>
                         <span class="stat-title">Projects Built</span>
                     </div>
                     <div class="stat-box">
@@ -255,8 +255,8 @@
 
             <!-- Project Category Filter Pills (Unslop & Ponytail Craft) -->
             <div class="project-filter-bar" role="tablist" aria-label="Filter projects by category">
-                <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All (5)</button>
-                <button type="button" class="filter-pill" data-filter="security" role="tab" aria-selected="false">Cloud &amp; Security (2)</button>
+                <button type="button" class="filter-pill active" data-filter="all" role="tab" aria-selected="true">All (6)</button>
+                <button type="button" class="filter-pill" data-filter="security" role="tab" aria-selected="false">Cloud &amp; Security (3)</button>
                 <button type="button" class="filter-pill" data-filter="fullstack" role="tab" aria-selected="false">Full Stack (2)</button>
                 <button type="button" class="filter-pill" data-filter="systems" role="tab" aria-selected="false">Systems (1)</button>
             </div>
@@ -265,81 +265,92 @@
                 <!-- Project 1: CloudVault -->
                 <article class="card project-item" data-category="security">
                     <div class="project-top">
-                        <span class="project-badge">CLOUD SECURITY</span>
+                        <span class="project-badge">AZURE CLOUD &amp; ENCRYPTION</span>
                         <div class="project-actions">
                             <a href="https://github.com/AyushTodkar404/cloudvault" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
                                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                                 GitHub
                             </a>
+                            <a href="https://cloudvault-app-dmgveggdbxacbuct.centralindia-01.azurewebsites.net" target="_blank" rel="noopener noreferrer" class="link-btn link-btn-accent" title="Open Live CloudVault App on Azure">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
                         </div>
                     </div>
-                    <h3 class="project-title">CloudVault &mdash; Secure Document Vault</h3>
+                    <h3 class="project-title">CloudVault &mdash; Secure Cloud Document Vault</h3>
                     <p class="project-description">
-                        Architected a 5-pillar secure cloud document management portal with Azure Blob Storage, AES-256-GCM envelope encryption, Argon2id password hashing, time-bounded sharing, file integrity verification, and comprehensive OWASP ASVS defensiveness.
+                        Production cloud document storage with Azure Blob Storage backend. Implements client and server SHA-256 integrity verification, AES-256-GCM envelope encryption, Argon2id authentication, automated 55-extension file security scanner, full Azure-synced recycle bin lifecycle (trash/restore/purge), time-bounded share links, audit logging, and offline PWA resilience.
                     </p>
                     <div class="chips-wrap project-tech-list">
-                        <span class="chip">Python</span>
+                        <span class="chip">Python 3.12</span>
                         <span class="chip">Flask</span>
-                        <span class="chip">Azure Storage</span>
+                        <span class="chip">Azure Blob Storage</span>
                         <span class="chip">AES-256-GCM</span>
                         <span class="chip">Argon2id</span>
                         <span class="chip">Tailwind CSS</span>
-                        <span class="chip">OWASP Hardened</span>
+                        <span class="chip">Service Worker PWA</span>
+                        <span class="chip">SQLite</span>
                     </div>
                 </article>
 
-                <!-- Project 2: DBIT Security Club Portal -->
+                <!-- Project 2: DBIT Security Club Portal (Dynamic) -->
                 <article class="card project-item" data-category="security">
                     <div class="project-top">
-                        <span class="project-badge">CYBERSECURITY PLATFORM</span>
+                        <span class="project-badge">CYBERSECURITY FULL-STACK</span>
                         <div class="project-actions">
-                            <a href="https://github.com/AyushTodkar404/SECURITY-CLUB-STATIC-PAGE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                            <a href="https://github.com/AyushTodkar404/SECURITY-CLUB-WEBSITE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
                                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                                 GitHub
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-title">DBIT Security Club Portal &amp; CTF Sandbox</h3>
+                    <h3 class="project-title">DBIT Security Club Portal &mdash; Dynamic Edition</h3>
                     <p class="project-description">
-                        Official cybersecurity portal for Don Bosco Institute of Technology. Features an interactive browser CTF flag verification sandbox, community event schedule, technical writeups, dark-mode toggle, and a 100% test-verified zero-dependency architecture.
+                        Full-stack community and operations hub for Don Bosco Institute of Technology's official Security Club. Powers structured REST APIs for student workshop registrations, cybersecurity events, executive team directory, awareness campaign publishing, photo archives, and administrative member workflows.
                     </p>
                     <div class="chips-wrap project-tech-list">
-                        <span class="chip">HTML5</span>
-                        <span class="chip">CSS3</span>
-                        <span class="chip">JavaScript</span>
-                        <span class="chip">CTF Sandbox</span>
+                        <span class="chip">Node.js</span>
+                        <span class="chip">Express.js</span>
+                        <span class="chip">JavaScript (ES6+)</span>
+                        <span class="chip">REST APIs</span>
+                        <span class="chip">HTML5 / CSS3</span>
                         <span class="chip">OWASP Hardening</span>
-                        <span class="chip">Responsive</span>
                     </div>
                 </article>
 
-                <!-- Project 3: Developer Portfolio Website -->
-                <article class="card project-item" data-category="fullstack">
+                <!-- Project 3: DBIT Security Club Portal (Static) -->
+                <article class="card project-item" data-category="security">
                     <div class="project-top">
-                        <span class="project-badge">WEB PORTFOLIO</span>
+                        <span class="project-badge">STATIC SPA &amp; CTF SANDBOX</span>
                         <div class="project-actions">
-                            <a href="https://github.com/AyushTodkar404/MY-PERSONAL-PORTFOLIO-WEBSITE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                            <a href="https://github.com/AyushTodkar404/STATIC-VERSION-SECURITY-CLUB-WEBSITE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
                                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                                 GitHub
                             </a>
+                            <a href="https://ayushtodkar404.github.io/STATIC-VERSION-SECURITY-CLUB-WEBSITE/" target="_blank" rel="noopener noreferrer" class="link-btn link-btn-accent" title="Open Live Static CTF Site">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
                         </div>
                     </div>
-                    <h3 class="project-title">Developer Portfolio Website</h3>
+                    <h3 class="project-title">DBIT Security Club &mdash; Static Edition &amp; CTF Sandbox</h3>
                     <p class="project-description">
-                        Designed and developed a responsive personal portfolio website to showcase technical skills, projects, and academic profile. Implemented responsive layouts, animations, transitions, interactive sections, and a dark mode toggle.
+                        Zero-dependency, high-speed static single-page application featuring an interactive in-browser CTF (Capture The Flag) challenge sandbox with Web Crypto SHA-256 verification. Includes client-side hash routing with prototype pollution protection, canvas digital matrix animation, custom cyber cursor, strict CSP, and 100% test-verified accessibility.
                     </p>
                     <div class="chips-wrap project-tech-list">
-                        <span class="chip">HTML</span>
-                        <span class="chip">CSS</span>
-                        <span class="chip">JavaScript</span>
-                        <span class="chip">Responsive Design</span>
+                        <span class="chip">Vanilla JavaScript</span>
+                        <span class="chip">HTML5 / CSS3</span>
+                        <span class="chip">Web Crypto API</span>
+                        <span class="chip">HTML5 Canvas</span>
+                        <span class="chip">CTF Sandbox</span>
+                        <span class="chip">Zero Dependencies</span>
                     </div>
                 </article>
 
                 <!-- Project 4: FixMySpot -->
                 <article class="card project-item" data-category="fullstack">
                     <div class="project-top">
-                        <span class="project-badge">CIVIC PLATFORM</span>
+                        <span class="project-badge">CIVIC TECH FULL-STACK</span>
                         <div class="project-actions">
                             <a href="https://github.com/AyushTodkar404/FIXMYSOT-CIVIC-COMPLAINTS-AND-MAINTAINENCE-TRACKER" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
                                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -347,25 +358,24 @@
                             </a>
                         </div>
                     </div>
-                    <h3 class="project-title">FixMySpot</h3>
+                    <h3 class="project-title">FixMySpot &mdash; Municipal Issue Reporting &amp; Maintenance Platform</h3>
                     <p class="project-description">
-                        A full-stack civic issue reporting platform that enables citizens to report, track, and monitor municipal issues. It includes role-based access for citizens, municipal workers, and administrators, along with issue-status workflows, notifications, profiles, and an interactive satellite map.
+                        Full-stack municipal civic issue tracker connecting citizens with local government maintenance teams. Enables citizens to report urban problems (potholes, garbage, lighting) with photo uploads and GPS geo-tagging, track real-time resolution workflows across Citizen, Worker, and Admin roles, inspect issues on interactive Leaflet maps, and operate in weak-network/offline caching mode.
                     </p>
                     <div class="chips-wrap project-tech-list">
-                        <span class="chip">Python</span>
+                        <span class="chip">Python (FastAPI)</span>
                         <span class="chip">React.js</span>
-                        <span class="chip">JavaScript</span>
                         <span class="chip">Tailwind CSS</span>
+                        <span class="chip">MongoDB Atlas (Motor)</span>
+                        <span class="chip">Leaflet.js</span>
                         <span class="chip">Node.js</span>
-                        <span class="chip">Express.js</span>
-                        <span class="chip">MongoDB</span>
                     </div>
                 </article>
 
                 <!-- Project 5: Deadlock Detector -->
                 <article class="card project-item" data-category="systems">
                     <div class="project-top">
-                        <span class="project-badge">SYSTEMS SIMULATOR</span>
+                        <span class="project-badge">SYSTEMS &amp; ALGORITHMS</span>
                         <div class="project-actions">
                             <a href="https://github.com/AyushTodkar404/DEADLOCK-DETECTOR-AND-RECOVERY-SIMULATOR" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
                                 <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -379,19 +389,44 @@
                     </div>
                     <h3 class="project-title">Deadlock Detector and Recovery Simulator</h3>
                     <p class="project-description">
-                        An interactive operating-systems simulator for detecting deadlocks and demonstrating recovery techniques in resource allocation. It implements Banker’s Algorithm, dynamic resource requests, DFS-based cycle detection, process termination, and resource preemption.
+                        Interactive operating systems simulation lab visualizing resource allocation, deadlock detection, and avoidance algorithms. Implements Dijkstra's Banker's Algorithm with safe/unsafe state checking, dynamic SVG Resource Allocation Graphs (RAG), DFS-based cycle detection for single-unit resources, and interactive recovery via process termination or resource preemption.
                     </p>
                     <div class="chips-wrap project-tech-list">
-                        <span class="chip">HTML</span>
-                        <span class="chip">CSS</span>
-                        <span class="chip">JavaScript</span>
+                        <span class="chip">JavaScript (ES6+)</span>
                         <span class="chip">Node.js</span>
                         <span class="chip">Express.js</span>
-                        <span class="chip">SVG</span>
+                        <span class="chip">Dynamic SVG</span>
+                        <span class="chip">Banker's Algorithm &amp; DFS</span>
+                        <span class="chip">HTML5 / CSS3</span>
                     </div>
                 </article>
-            </div>
-                        <span class="chip">SVG</span>
+
+                <!-- Project 6: Developer Portfolio Website -->
+                <article class="card project-item" data-category="fullstack">
+                    <div class="project-top">
+                        <span class="project-badge">PORTFOLIO &amp; INTERACTIVE CLI</span>
+                        <div class="project-actions">
+                            <a href="https://github.com/AyushTodkar404/MY-PERSONAL-PORTFOLIO-WEBSITE" target="_blank" rel="noopener noreferrer" class="link-btn" title="View Source on GitHub">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                            <a href="https://ayushtodkar404.github.io/MY-PERSONAL-PORTFOLIO-WEBSITE/" target="_blank" rel="noopener noreferrer" class="link-btn link-btn-accent" title="Open Live Portfolio">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Personal Engineering Portfolio Website</h3>
+                    <p class="project-description">
+                        High-performance, accessible, dark/light theme personal engineering portfolio with zero framework overhead. Features an interactive Unix-style retro terminal emulator, category-filtered project showcase, scroll reading progress indicator, 1-click email copy pill, strict OWASP Content Security Policy, and clean responsive design without external JavaScript libraries.
+                    </p>
+                    <div class="chips-wrap project-tech-list">
+                        <span class="chip">HTML5</span>
+                        <span class="chip">CSS3 (Variables &amp; Grid)</span>
+                        <span class="chip">Vanilla JavaScript</span>
+                        <span class="chip">Terminal CLI Emulator</span>
+                        <span class="chip">OWASP CSP Hardened</span>
+                        <span class="chip">Zero Dependencies</span>
                     </div>
                 </article>
             </div>

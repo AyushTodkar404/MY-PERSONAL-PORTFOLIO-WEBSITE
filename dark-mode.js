@@ -265,28 +265,29 @@
         break;
 
       case 'projects':
-        appendTermRow('🚀 Featured Engineering Projects:', 'term-accent');
-        appendTermRow('  1. CloudVault — Enterprise cloud document vault with Azure Storage & AES-256-GCM');
-        appendTermRow('  2. DBIT Security Club Portal — CTF sandbox & cybersecurity community site');
-        appendTermRow('  3. FixMySpot — Full-stack municipal civic issue tracker with maps');
-        appendTermRow('  4. Deadlock Detector — Operating systems resource allocation graph simulator');
-        appendTermRow('  5. Personal Portfolio — Lean zero-bloat developer portfolio website');
+        appendTermRow('🚀 Featured Engineering Projects (6 Total):', 'term-accent');
+        appendTermRow('  1. CloudVault — Secure cloud document vault with Azure Blob Storage & AES-256-GCM');
+        appendTermRow('  2. DBIT Security Club (Full Stack) — Club community portal, event REST APIs & member management');
+        appendTermRow('  3. DBIT Security Club (Static) — High-speed static SPA & in-browser CTF challenge sandbox');
+        appendTermRow('  4. FixMySpot — Full-stack municipal civic issue tracker with maps & offline caching');
+        appendTermRow('  5. Deadlock Detector — Operating systems resource allocation graph & Banker\'s Algorithm simulator');
+        appendTermRow('  6. Personal Portfolio — Lean zero-bloat developer portfolio with terminal CLI emulator');
         break;
 
       case 'cloudvault':
         appendTermRow('🔒 CloudVault Architecture:', 'term-accent');
-        appendTermRow('  • Azure Blob Storage cloud backend with AES-256-GCM envelope encryption');
-        appendTermRow('  • Argon2id password hashing + session tampering defense');
-        appendTermRow('  • 5-pillar secure document lifecycle, time-bounded sharing, and audit logging');
+        appendTermRow('  • Azure Blob Storage backend with AES-256-GCM envelope encryption & SHA-256 integrity');
+        appendTermRow('  • Argon2id password hashing + automated 55-extension file upload security scanner');
+        appendTermRow('  • Full Azure-synchronized recycle bin lifecycle (trash/restore/purge) & time-bounded sharing');
         appendTermRow('  • GitHub: https://github.com/AyushTodkar404/cloudvault');
         break;
 
       case 'security':
-        appendTermRow('🛡️ DBIT Security Club & CTF Platform:', 'term-accent');
-        appendTermRow('  • Official cybersecurity portal for Don Bosco Institute of Technology');
-        appendTermRow('  • Interactive in-browser CTF flag verification sandbox with instant validation');
-        appendTermRow('  • OWASP ASVS hardened static architecture with 100% test coverage');
-        appendTermRow('  • GitHub: https://github.com/AyushTodkar404/SECURITY-CLUB-STATIC-PAGE');
+        appendTermRow('🛡️ DBIT Security Club Platforms (Dynamic & Static):', 'term-accent');
+        appendTermRow('  • Dynamic Platform: Node/Express event hub, member directory & operations API');
+        appendTermRow('  • Static Edition: Lightning-fast static architecture with in-browser CTF cryptographic sandbox');
+        appendTermRow('  • GitHub (Dynamic): https://github.com/AyushTodkar404/SECURITY-CLUB-WEBSITE');
+        appendTermRow('  • GitHub (Static): https://github.com/AyushTodkar404/STATIC-VERSION-SECURITY-CLUB-WEBSITE');
         break;
 
       case 'about':
