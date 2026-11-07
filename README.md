@@ -18,6 +18,10 @@ Designed according to **Unslop** and **Ponytail** principles: zero bloated depen
 - **Dark & Light Mode**: Persistent theme engine with zero-flash rendering and smooth SVG iconography.
 - **Scrollspy Navigation**: Dynamically tracks and highlights active viewport sections using native `IntersectionObserver`.
 - **Zero Third-Party Bundlers**: Built entirely with pure semantic HTML5, modern CSS3 custom properties, and vanilla ES6+ JavaScript.
+- **Interactive Developer Console**: In-browser terminal widget with executable/clickable commands (`help`, `skills`, `projects`, `cloudvault`, `security`, `contact`) built with pure safe DOM (OWASP-compliant, zero unescaped input).
+- **Interactive Project Filters**: Instant category filtering for Cloud & Security, Full Stack, and Systems projects.
+- **1-Click Copy Email Pill**: Fast clipboard copy with instant visual verification feedback.
+- **OWASP Security Hardening**: Strict Content Security Policy (CSP), anti-tabnabbing (`rel="noopener noreferrer"`), zero inline script violations, and complete subresource protection.
 - **Direct Connect**: Direct WhatsApp message generator and secure contact channels.
 
 ---
@@ -26,6 +30,8 @@ Designed according to **Unslop** and **Ponytail** principles: zero bloated depen
 
 | Project | Description | Stack | Links |
 | :--- | :--- | :--- | :--- |
+| **CloudVault &mdash; Secure Document Vault** | 5-pillar enterprise cloud document portal with Azure Blob Storage, AES-256-GCM envelope encryption, Argon2id hashing, and OWASP ASVS defensiveness. | Python, Flask, Azure Storage, AES-256-GCM, Argon2id | [Repo](https://github.com/AyushTodkar404/cloudvault) |
+| **DBIT Security Club Portal & CTF Sandbox** | Official cybersecurity portal for DBIT with interactive in-browser CTF flag sandbox and writeup repository. | HTML5, CSS3, JavaScript, CTF Sandbox | [Repo](https://github.com/AyushTodkar404/SECURITY-CLUB-STATIC-PAGE) |
 | **Deadlock Detector & Recovery Simulator** | Interactive OS simulator for detecting deadlocks using Banker's Algorithm and DFS cycle detection on Resource Allocation Graphs (RAG). | JavaScript, Node.js, Express, SVG | [Repo](https://github.com/AyushTodkar404/DEADLOCK-DETECTOR-AND-RECOVERY-SIMULATOR) &middot; [Live Demo](https://deadlock-visualizer.onrender.com/) |
 | **FixMySpot** | Full-stack municipal civic issue reporting platform with role-based access control (RBAC), issue lifecycle workflows, and geospatial map tracking. | React.js, Node.js, Express, MongoDB, Python, Tailwind | [Repo](https://github.com/AyushTodkar404/FIXMYSOT-CIVIC-COMPLAINTS-AND-MAINTAINENCE-TRACKER) |
 | **Developer Portfolio** | Responsive personal portfolio featuring dark/light theming, dynamic scrollspy, and accessible component architecture. | HTML5, CSS3, JavaScript | [Repo](https://github.com/AyushTodkar404/MY-PERSONAL-PORTFOLIO-WEBSITE) |
@@ -35,13 +41,16 @@ Designed according to **Unslop** and **Ponytail** principles: zero bloated depen
 ## 🛠️ Project Structure
 
 ```text
-├── index.html          # Main semantic HTML structure (all content is here!)
-├── style.css           # Modern CSS3 design system & responsive rules
-├── dark-mode.js        # Theme engine, mobile menu & scrollspy controller
-├── Resume.pdf          # Professional engineering resume
-├── profile-photo.jpeg  # Profile visual asset
-├── me.jpg              # Favicon asset
-└── README.md           # Documentation & editing guide
+├── index.html              # Main semantic HTML structure & interactive widgets
+├── style.css               # Modern CSS3 design system, dark/light themes & responsive rules
+├── dark-mode.js            # Theme engine, interactive terminal, mobile menu & scrollspy
+├── test.js                 # Automated integrity test suite (OWASP, a11y, JS syntax, assets)
+├── Resume.pdf              # Professional engineering resume
+├── profile-photo.jpeg      # Profile visual asset
+├── me.jpg                  # Favicon asset
+├── AGENTS.md               # Repository operating rules across all 5 skills
+├── .planning/codebase/     # GSD codebase intelligence & architectural documentation
+└── README.md               # Documentation & editing guide
 ```
 
 ---
