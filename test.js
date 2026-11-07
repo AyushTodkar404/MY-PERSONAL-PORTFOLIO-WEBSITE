@@ -122,3 +122,4 @@ assert(cssContent.includes('.back-to-top'), 'Back to top button styling defined'
 console.log(`\n======================================================`);
 console.log(`Test Results: ${passedTests}/${totalTests} Passed (100% SUCCESS)`);
 console.log(`======================================================\n`);
+

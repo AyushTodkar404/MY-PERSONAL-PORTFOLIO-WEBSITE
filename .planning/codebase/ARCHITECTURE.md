@@ -32,3 +32,4 @@ The personal engineering portfolio is an ultra-lean, static web application desi
 
 4. **Verification Layer (`test.js`)**:
    - Node-based assert engine validating 47 automated rules across OWASP, WCAG AA, JS syntax, and asset integrity.
+

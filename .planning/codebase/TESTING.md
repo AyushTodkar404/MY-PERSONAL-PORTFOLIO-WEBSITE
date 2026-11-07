@@ -16,3 +16,4 @@ node test.js
 4. **WCAG AA Accessibility (5 assertions)**: Checks `lang="en"`, skip link, main landmark target ID, and semantic structure.
 5. **Interactive UI Craft (12 assertions)**: Verifies terminal output, terminal input, quick command actions, project category filter pills, flagship projects, reading progress bar, back-to-top button, and copy email pill.
 6. **Design System (7 assertions)**: Validates `:focus-visible`, `.skip-link`, custom CSS properties, light mode overrides, terminal styling, and back-to-top styles.
+

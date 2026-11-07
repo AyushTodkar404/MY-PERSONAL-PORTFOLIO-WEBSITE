@@ -14,3 +14,4 @@
 
 4. **Performance & Asset Loading**:
    - Profile photos and resume are served directly without external third-party CDN latency, ensuring 100% offline and localized self-containment.
+

@@ -11,3 +11,4 @@
 | **Security** | OWASP Hardened Meta Tags | In-browser CSP (`script-src 'self'`), `X-Content-Type-Options: nosniff`. |
 | **Verification** | Node.js Test Runner (`test.js`) | Lightweight built-in assertion tests, zero external npm dependencies. |
 | **Hosting** | GitHub Pages / Static CDN | Edge cached, HTTPS-enforced, global CDN distribution. |
+

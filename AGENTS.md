@@ -20,3 +20,4 @@ This repository follows the unified standards across five core engineering frame
   - Maintain `:focus-visible` high-contrast rings for all interactive elements.
   - Preserve WCAG AA color contrast across both dark and light modes.
 - **Testing**: Run `node test.js` before every commit to ensure 100% pass rate.
+
